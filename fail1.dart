@@ -1,3 +1,11 @@
+void main(){
+  for(int i=1; i<=10;i++){
+    for(int j=1; j<=10; j++){
+      print("$i*$j=${i*j}");
+    }
+  }
+}
+
 /*1
 double procOrder({
   required int orderId,
@@ -104,6 +112,8 @@ void main(){
 }
 
  */
+
+/*5
 bool isPrime(int n){
   if(n<1) return false;
   for(int i=2; i<n;i++){
@@ -115,3 +125,5 @@ void main(){
   int n=7;
   print(isPrime(n));
 }
+
+ */
