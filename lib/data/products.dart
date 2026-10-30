@@ -1,0 +1,58 @@
+import '../models/product.dart';
+
+const initialProducts = <Product>[
+  Product(
+    id: 'red',
+    name: 'Velocity Red',
+    category: 'Running',
+    image: 'assets/images/shoe_0.jpg',
+    price: 42900,
+    rating: 4.8,
+    description: 'Lightweight running shoes designed for high performance.',
+  ),
+  Product(
+    id: 'cloud',
+    name: 'Cloud Everyday',
+    category: 'Lifestyle',
+    image: 'assets/images/shoe_1.jpg',
+    price: 38900,
+    rating: 4.7,
+    description: 'Ultra-comfortable daily sneakers for long urban walks.',
+  ),
+  Product(
+    id: 'court',
+    name: 'Court Essential',
+    category: 'Lifestyle',
+    image: 'assets/images/shoe_2.jpg',
+    price: 35900,
+    rating: 4.9,
+    description: 'Classic court silhouette with a premium finish.',
+  ),
+  Product(
+    id: 'move',
+    name: 'Urban Move',
+    category: 'Training',
+    image: 'assets/images/shoe_3.jpg',
+    price: 46900,
+    rating: 4.6,
+    description: 'Supportive cross-training shoes built for heavy workouts.',
+  ),
+  Product(
+    id: 'pulse',
+    name: 'Pulse Runner',
+    category: 'Running',
+    image: 'assets/images/shoe_0.jpg',
+    price: 51200,
+    rating: 4.9,
+    description: 'Responsive foam cushioning for marathon training.',
+  ),
+  Product(
+    id: 'trail',
+    name: 'Trail Master',
+    category: 'Training',
+    image: 'assets/images/shoe_1.jpg',
+    price: 48500,
+    rating: 4.5,
+    description: 'Durable outsole for outdoor terrain and mountain tracks.',
+  ),
+];
